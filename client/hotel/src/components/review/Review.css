@@ -1,0 +1,106 @@
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  #delete-logo{
+    text-align:center;
+    vertical-align:middle;
+    cursor: pointer;
+  }
+
+  #delete-logo:hover{
+    text-align:center;
+    vertical-align:middle;
+    cursor: pointer;
+    color: red;
+  }
+
+  #edit-logo{
+    text-align:center;
+    vertical-align:middle;
+    cursor: pointer;
+  }
+
+  #edit-logo:hover{
+    text-align:center;
+    vertical-align:middle;
+    cursor: pointer;
+    color: blue;
+  }
+  
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .review-button{
+      width: 88px;
+      padding: 8px;
+      border-radius: 5px;
+      border:none;
+      margin-right: 20px;
+      background-color: blue;
+      color: white
+  }
+
+
+.allreview-button{
+  width: 88px;
+      padding: 8px;
+      border-radius: 5px;
+      border:none;
+      margin-left: 40px;
+      background-color: blue;
+      color: white;
+      cursor: pointer;
+}
+
+#rating-review{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 10px;
+    width: 170px;
+}
+
+#city-review{
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
+    width: 170px;
+}
+
+.dropdown-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}

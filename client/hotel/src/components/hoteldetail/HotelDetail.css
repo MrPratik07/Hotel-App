@@ -1,0 +1,52 @@
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+.hotellist{
+  margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.city{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+#citylabel{
+        margin-right: 10px;
+       
+    }
+
+#city{
+    padding: 10px;
+    width: 170px;
+    }

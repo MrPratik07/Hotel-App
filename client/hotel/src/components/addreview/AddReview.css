@@ -1,0 +1,70 @@
+.main-form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.review-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#hotel{
+    padding: 10px;
+    width: 225px;
+}
+
+#rating{
+    padding: 10px;
+    width: 225px;
+}
+
+#checkin{
+    padding: 10px;
+    width: 200px;
+}
+
+#summary{
+    padding: 10px;
+    width: 200px;
+}
+
+#details{
+    padding: 10px;
+    width: 200px;
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    width: 88px;
+      padding: 8px;
+      border-radius: 5px;
+      border:none;
+      background-color: blue;
+      color: white;
+      cursor: pointer;
+}
+
+
+
+
